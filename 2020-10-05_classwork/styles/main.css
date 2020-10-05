@@ -1,0 +1,33 @@
+        b {
+            color: red;
+            font-size: 55px;
+
+        }
+
+span {
+            font-style: italic;
+            color: blue;
+
+     }
+
+div {
+    height: 100px;
+ /*   width: 200px; */
+    width: 80%;
+    border: 5px solid black;
+ /*   margin: 33px 22px 12px 6px; */
+    margin: 20px auto;
+    padding: 12px 9px;
+    background-color: azure;
+}
+
+.div1 {
+    background-color: greenyellow;
+    height: 100%;
+    /* margin: 50px 40px 30px 20px; */
+}
+.div2 {
+    background-color: rgb(47, 172, 255);
+    height: 125px;
+    margin: 50px 40px 30px 20px;
+}
