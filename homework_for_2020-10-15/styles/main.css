@@ -1,0 +1,137 @@
+.maindiv {
+    /* border: solid 2px red; */
+    margin: auto;
+
+}
+
+.block1 {
+    border: solid 2px yellow;
+    position: relative;
+    /* height: 10px; */
+    width: 10px;
+}
+
+.block2 {
+    /* border: solid 2px yellow; */
+    position: relative;
+    /* height: 105px; */
+    width: 10px;
+
+
+}
+
+.block3 {
+    /* border: solid 2px yellow; */
+    position: relative;
+    /* height: 105px; */
+    width: 10px;
+
+}
+
+.item1 {
+    border: solid 2px blue;
+    height: 105px;
+    width: 300px;
+    position: relative;
+}
+.item1:hover ~ .menu1 {
+    visibility: visible;
+}
+
+.menu1 {
+    border: solid 2px purple;
+    /* height: 100px; */
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 305px;
+    display: none;
+    background-color: khaki;
+}
+.menu1:hover {
+    display: block;
+}
+
+.item2 {
+    border: solid 2px blue;
+    height: 105px;
+    width: 300px;
+    position: relative;
+}
+.item2:hover ~ .menu2 {
+    display: block;
+}
+
+.menu2 {
+    /* border: solid 2px purple; */
+    /* height: 100px; */
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 305px;
+    /* visibility: hidden; */
+    display: none;
+    background-color: yellowgreen;
+}
+.menu2:hover {
+    display: block;
+}
+
+.item3 {
+    border: solid 2px blue;
+    height: 105px;
+    width: 300px;
+    position: relative;
+}
+.item3:hover ~ .menu3 {
+    display: block;
+
+.menu3 {
+    /* border: solid 2px purple; */
+    /* height: 100px; */
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 305px;
+    /* visibility: hidden; */
+    display: none;
+    background-color: lightblue;
+}
+.menu3:hover {
+    display: block;
+}
+
+
+.menuitem1 {
+    border: solid 1px green;
+    margin: auto;
+    /* height: 33px; */
+    /* border: solid 2px blue; */
+    height: 105px;
+    /* width: 300px; */
+    /* background-color: greenyellow; */
+    text-align: center;
+    /* padding-bottom: 50px; */
+}
+.menuitem2 {
+    border: solid 1px green;
+    margin: auto;
+    /* height: 33px; */
+    /* border: solid 2px blue; */
+    height: 105px;
+    /* width: 300px; */
+    /* background-color: greenyellow; */
+    text-align: center;
+    /* padding-bottom: 50px; */
+}
+.menuitem3 {
+    border: solid 1px green;
+    margin: auto;
+    /* height: 33px; */
+    /* border: solid 2px blue; */
+    height: 105px;
+    /* width: 300px; */
+    /* background-color: greenyellow; */
+    text-align: center;
+    /* padding-bottom: 50px; */
+}

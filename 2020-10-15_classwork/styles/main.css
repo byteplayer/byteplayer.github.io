@@ -1,0 +1,81 @@
+/* body{
+    height: 1000px;
+} */
+
+div {
+    position: relative;
+    border: 5px solid black;
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+div > div {
+    position: absolute;
+    border: 5px solid black;
+    left: 115x;
+    top: 30px; 
+}
+
+
+/* .elem12{
+    position: relative;
+    width: 20px;
+} */
+
+/* .elem12:hover > .elem12hint{
+    display: block;
+} */
+
+/* .elem12hint{
+    position: absolute;
+    top: 25px;
+    width: 125px;
+    background-color: black;
+    color: white;
+    border 0;
+    display: none;
+
+} */
+
+/* .elem132{
+    position: absolute;
+    border: 5px solid red;
+    width: 88px;
+    display: none;
+} */
+
+/* .elem11{
+    position: fixed;
+    border: 5px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top 200px;
+    left: 150px;
+
+} */
+
+/* .elem12:hover {
+    opacity: 0%;
+    visibility: hidden;
+    display: none;
+} */
+
+/* .elem12:hover {
+    opacity: 0%;
+    visibility: hidden;
+    display: none;
+} */
+
+/* .elem13 > div::before {
+    color: red;
+    content: "*";
+} */
+
+/* .elem13 > div::after {
+    color: blue;
+    content: "+++";
+} */
+

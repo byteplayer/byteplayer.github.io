@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+
+
+
+div {
+    /* border: 1px solid black; */
+}
+
+.main {
+    background-color: #b9d6ef;
+    height: 1000px;
+    position: relative;
+    /* border: 3px solid red; */
+}
+
+.clouds {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    height: 113px;
+    background-color: deeppink;
+}
+
+.clouds > div {
+    position: absolute;
+}
+
+.cloud1 {
+    background-color: gold;
+    left: -259px;
+}
+.cloud2 {
+    background-color: darkseagreen;
+    left: 123px;
+}
+
+.commingsoon {
+    background-color: salmon;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.4rem;
+    line-height: 50px;
+    letter-spacing: 5px;
+    color: white;
+
+}
