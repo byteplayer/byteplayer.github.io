@@ -1,0 +1,30 @@
+.main  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    position: relative;
+    height: 550px;
+    width: 550px;
+    margin: 25px;
+}
+
+.item{
+    border-radius: 3px;
+    background-color: grey;
+    width: 50px;
+    margin: 25px 30px;
+    text-align: center;
+}
+
+.item3{
+    height: 150px;
+}
+
+.item4{
+    width: 300px;
+}
+
+.item5{
+    height: 50px;
+}
