@@ -1,0 +1,28 @@
+$ss_length: 100px;
+$q_of_rows: 6;
+$q_of_columns: 8;
+$gradcolor1: green;
+$gradcolor2: transparent;
+$angle1: 90deg;
+$angle2: 180deg;
+$basepercent: 5%;
+$coeff:19;
+$contrast: 0.07;
+
+
+body {
+    background-color: rgba(#000, $contrast);
+    .main  {
+        position: relative;
+        width: $ss_length * $q_of_columns;
+        height: $ss_length * $q_of_rows;
+        margin: 100px auto;
+        background-image: linear-gradient($angle1, $gradcolor1 $basepercent, $gradcolor2 $basepercent),
+                          linear-gradient($angle2, $gradcolor1 $basepercent, $gradcolor2 $basepercent),
+                          linear-gradient($angle1, $gradcolor2 $basepercent*$coeff, $gradcolor1 $basepercent*$coeff),
+                          linear-gradient($angle2, $gradcolor2 $basepercent*$coeff, $gradcolor1 $basepercent*$coeff);
+        background-size: $ss_length $ss_length;
+        background-position: 0 0, 0 $ss_length, $ss_length -1*$ss_length, -1*$ss_length 0;
+        
+    }
+}
