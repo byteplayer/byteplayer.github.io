@@ -1,0 +1,26 @@
+$square_side_length: 100px;
+$quantity_of_rows: 4;
+$quantity_of_columns: 5;
+
+
+body {
+    background-color: black;
+    .main  {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        background-color: white;
+        position: relative;
+        width: $square_side_length * $quantity_of_columns * 1.1;
+        height: $square_side_length * $quantity_of_rows * 1.1;
+        margin: 100px auto;
+        align-items: center;
+
+        .square {
+            background-color: grey;
+            width: $square_side_length;
+            height: $square_side_length;
+            position: relative;
+        }
+    }
+}

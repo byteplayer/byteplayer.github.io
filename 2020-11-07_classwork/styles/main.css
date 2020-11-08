@@ -1,0 +1,46 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: antiquewhite;
+  position: relative;
+  height: 550px;
+  width: 550px;
+  margin: 25px;
+}
+
+.item {
+  border-radius: 3px;
+  background-color: grey;
+  width: 50px;
+  margin: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item3 {
+  height: 150px;
+}
+
+.item4 {
+  width: 300px;
+}
+
+.item5 {
+  height: 50px;
+}
+/*# sourceMappingURL=main.css.map */
