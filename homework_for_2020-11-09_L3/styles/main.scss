@@ -7,6 +7,7 @@ body {
         position: relative;
         width: $ss_length * $q_of_columns;
         height: $ss_length * $q_of_rows;
+        border: solid $ss_length*0.05 grey;
         margin: 100px auto;
         background-image: linear-gradient(90deg, grey $ss_length*0.05, transparent $ss_length*0.05, transparent $ss_length*0.95, grey $ss_length*0.95),
                           linear-gradient(180deg, grey $ss_length*0.05, transparent $ss_length*0.05, transparent $ss_length*0.95, grey $ss_length*0.95);

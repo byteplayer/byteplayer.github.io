@@ -2,6 +2,7 @@ body .main {
   position: relative;
   width: 800px;
   height: 600px;
+  border: solid 5px grey;
   margin: 100px auto;
   background-image: linear-gradient(90deg, grey 5px, transparent 5px, transparent 95px, grey 95px), linear-gradient(180deg, grey 5px, transparent 5px, transparent 95px, grey 95px);
   background-size: 100px 100px;
